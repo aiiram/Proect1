@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
